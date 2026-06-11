@@ -1,0 +1,108 @@
+<svg width="1200" height="150" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0E27;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1F5C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14F195;stop-opacity:0" />
+      <stop offset="50%" style="stop-color:#14F195;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14F195;stop-opacity:0" />
+    </linearGradient>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="150" fill="url(#footerBg)"/>
+
+  <!-- Top border line -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#accentLine)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="150" cy="75" r="60" fill="#14F195" opacity="0.05"/>
+  <circle cx="1050" cy="75" r="60" fill="#9945FF" opacity="0.05"/>
+
+  <!-- Stars/dots decoration -->
+  <circle cx="200" cy="40" r="2" fill="#14F195" opacity="0.6"/>
+  <circle cx="1000" cy="110" r="2" fill="#9945FF" opacity="0.6"/>
+  <circle cx="300" cy="110" r="1.5" fill="#14F195" opacity="0.4"/>
+  <circle cx="900" cy="40" r="1.5" fill="#9945FF" opacity="0.4"/>
+
+  <!-- Solana logo representation (left) -->
+  <g transform="translate(100, 50)">
+    <path d="M0,25 L15,10 L30,25 L15,40 Z" fill="none" stroke="#14F195" stroke-width="2" opacity="0.6"/>
+    <circle cx="15" cy="25" r="3" fill="#14F195" opacity="0.8"/>
+  </g>
+
+  <!-- Solana logo representation (right) -->
+  <g transform="translate(1100, 50)">
+    <path d="M0,25 L15,10 L30,25 L15,40 Z" fill="none" stroke="#9945FF" stroke-width="2" opacity="0.6"/>
+    <circle cx="15" cy="25" r="3" fill="#9945FF" opacity="0.8"/>
+  </g>
+
+  <!-- Main content -->
+  <g transform="translate(600, 60)">
+    <!-- Rocket icon -->
+    <g transform="translate(-280, 0)">
+      <path d="M0,-15 Q-3,-8 -3,0 L-3,5 Q-3,8 0,10 Q3,8 3,5 L3,0 Q3,-8 0,-15 Z" fill="#14F195" opacity="0.8"/>
+      <ellipse cx="0" cy="-13" rx="2" ry="4" fill="#9945FF" opacity="0.8"/>
+      <rect x="-5" y="3" width="3" height="7" rx="1" fill="#14F195" opacity="0.6"/>
+      <rect x="2" y="3" width="3" height="7" rx="1" fill="#14F195" opacity="0.6"/>
+    </g>
+
+    <!-- Text: "Built with ❤️ for the Solana Community" -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="middle" filter="url(#textGlow)">
+      Built with
+      <tspan fill="#FF6B6B">❤️</tspan>
+      for the Solana Community
+    </text>
+
+    <!-- Divider line -->
+    <line x1="-200" y1="20" x2="200" y2="20" stroke="#14F195" stroke-width="1" opacity="0.3"/>
+
+    <!-- Additional info -->
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="14" fill="#14F195" text-anchor="middle" opacity="0.8">
+      Open Source • Free Forever • Community Driven
+    </text>
+  </g>
+
+  <!-- Social icons placeholder (simplified) -->
+  <g transform="translate(400, 105)">
+    <circle cx="0" cy="0" r="12" fill="#14F195" opacity="0.2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#14F195" text-anchor="middle">D</text>
+  </g>
+
+  <g transform="translate(480, 105)">
+    <circle cx="0" cy="0" r="12" fill="#14F195" opacity="0.2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#14F195" text-anchor="middle">𝕏</text>
+  </g>
+
+  <g transform="translate(560, 105)">
+    <circle cx="0" cy="0" r="12" fill="#14F195" opacity="0.2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#14F195" text-anchor="middle">G</text>
+  </g>
+
+  <g transform="translate(640, 105)">
+    <circle cx="0" cy="0" r="12" fill="#14F195" opacity="0.2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#14F195" text-anchor="middle">Y</text>
+  </g>
+
+  <g transform="translate(720, 105)">
+    <circle cx="0" cy="0" r="12" fill="#14F195" opacity="0.2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#14F195" text-anchor="middle">T</text>
+  </g>
+
+  <g transform="translate(800, 105)">
+    <circle cx="0" cy="0" r="12" fill="#14F195" opacity="0.2"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="14" fill="#14F195" text-anchor="middle">R</text>
+  </g>
+
+  <!-- Bottom border line -->
+  <rect x="0" y="148" width="1200" height="2" fill="url(#accentLine)"/>
+</svg>

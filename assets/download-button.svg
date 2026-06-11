@@ -1,0 +1,54 @@
+<svg width="500" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14F195;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0FD186;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14F195;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="shineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:0" />
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#14F195" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Shadow -->
+  <rect x="10" y="10" width="480" height="80" rx="40" fill="#14F195" opacity="0.15" filter="url(#shadow)"/>
+
+  <!-- Main Button -->
+  <rect x="10" y="10" width="480" height="80" rx="40" fill="url(#btnGrad)"/>
+
+  <!-- Top shine -->
+  <rect x="10" y="10" width="480" height="40" rx="40" fill="url(#shineGrad)" opacity="0.3"/>
+
+  <!-- Border -->
+  <rect x="10" y="10" width="480" height="80" rx="40" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.4"/>
+
+  <!-- Download Icon (centered vertically) -->
+  <g transform="translate(70, 50)">
+    <!-- Icon background circle -->
+    <circle cx="0" cy="0" r="18" fill="#FFFFFF" opacity="0.15"/>
+    <!-- Arrow down -->
+    <path d="M 0,-8 L 0,4" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+    <path d="M -6,-2 L 0,4 L 6,-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Bottom line -->
+    <line x1="-8" y1="8" x2="8" y2="8" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Text: DOWNLOAD NOW -->
+  <text x="250" y="48" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+    DOWNLOAD NOW
+  </text>
+
+  <!-- Subtext -->
+  <text x="250" y="70" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#FFFFFF" text-anchor="middle" opacity="0.95">
+    Latest v3.8.2 • Windows 10/11 • Free Forever
+  </text>
+
+  <!-- Right arrow -->
+  <g transform="translate(440, 50)">
+    <path d="M -4,-7 L 4,0 L -4,7" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
