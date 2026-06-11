@@ -1,0 +1,111 @@
+# Solana Sniper Bot - Git Ignore File
+
+# User configuration files
+config.json
+config-*.json
+*.local.json
+
+# Private keys and sensitive data
+*.key
+*.pem
+private_keys/
+wallets/
+.env
+.env.local
+secrets/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Build artifacts
+build/
+dist/
+out/
+target/
+
+# Node modules (if using JavaScript/TypeScript tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python virtual environments
+venv/
+env/
+.venv/
+*.pyc
+__pycache__/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Backup files
+*.bak
+*.backup
+*.old
+backup/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# User data
+user_data/
+transactions/
+trade_history/
+
+# Cache
+.cache/
+*.cache
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Testing
+test-results/
+.pytest_cache/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Compiled binaries (keep the release version)
+# SolanaSniperBot.exe should be in releases, not repo
+
+# Package managers
+.pnpm-store/
+.yarn/
+
+# OS generated files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Application specific
+session_data/
+screenshots/
+recordings/
