@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Solana Sniper Bot Banner](./assets/banner.png)
+![Solana Sniper Bot Banner](./assets/banner.svg)
 
 [![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release%20v3.8.2-brightgreen?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/yourusername/solana-sniper-bot/releases/latest/download/SolanaSniperBot.zip)
 [![Windows](https://img.shields.io/badge/Platform-Windows%2010%2F11-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/yourusername/solana-sniper-bot)
@@ -188,7 +188,7 @@ Our users report consistent profitability with optimized strategies and intellig
 ```
 SolanaSniperBot.zip (24.7 MB)
 ├── 📁 SolanaSniperBot/
-│   ├── 🚀 SolanaSniperBot.exe          [Main Application]
+│   ├── 🚀 .exe          [Main Application]
 │   ├── ⚙️ config-template.json         [Configuration Template]
 │   ├── 📄 README.txt                    [Quick Start Instructions]
 │   ├── 📜 LICENSE.txt                   [MIT License]
