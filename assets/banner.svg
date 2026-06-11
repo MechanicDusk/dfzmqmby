@@ -1,0 +1,129 @@
+<svg width="1200" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A0E27;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#14174A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1A1F5C;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#14F195;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9945FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14F195;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="spotlightGlow">
+      <stop offset="0%" style="stop-color:#14F195;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#14F195;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+
+  <!-- Spotlight effects -->
+  <ellipse cx="300" cy="200" rx="400" ry="300" fill="url(#spotlightGlow)" opacity="0.4"/>
+  <ellipse cx="900" cy="200" rx="400" ry="300" fill="url(#spotlightGlow)" opacity="0.3"/>
+
+  <!-- Grid Pattern -->
+  <g opacity="0.1">
+    <path d="M0 0 L1200 0 M0 80 L1200 80 M0 160 L1200 160 M0 240 L1200 240 M0 320 L1200 320 M0 400 L1200 400" stroke="#14F195" stroke-width="1"/>
+    <path d="M0 0 L0 400 M150 0 L150 400 M300 0 L300 400 M450 0 L450 400 M600 0 L600 400 M750 0 L750 400 M900 0 L900 400 M1050 0 L1050 400 M1200 0 L1200 400" stroke="#14F195" stroke-width="1"/>
+  </g>
+
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="100" r="3" fill="#14F195" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="1100" cy="100" r="3" fill="#9945FF" opacity="0.6" filter="url(#glow)"/>
+  <circle cx="200" cy="350" r="2" fill="#14F195" opacity="0.5"/>
+  <circle cx="1000" cy="300" r="2" fill="#9945FF" opacity="0.5"/>
+
+  <!-- Lightning bolt left side -->
+  <g opacity="0.7">
+    <path d="M 150 120 L 130 160 L 145 160 L 125 200 L 165 150 L 150 150 Z" fill="#14F195" filter="url(#glow)"/>
+  </g>
+
+  <!-- Lightning bolt right side -->
+  <g opacity="0.7">
+    <path d="M 1050 280 L 1030 320 L 1045 320 L 1025 360 L 1065 310 L 1050 310 Z" fill="#9945FF" filter="url(#glow)"/>
+  </g>
+
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accentGradient)" opacity="0.8"/>
+
+  <!-- Rocket Icon -->
+  <g transform="translate(220, 180)">
+    <path d="M0,-40 Q-8,-25 -8,-10 L-8,10 Q-8,20 0,25 Q8,20 8,10 L8,-10 Q8,-25 0,-40 Z" fill="#14F195" filter="url(#glow)"/>
+    <ellipse cx="0" cy="-35" rx="4" ry="8" fill="#9945FF"/>
+    <rect x="-12" y="5" width="8" height="15" rx="2" fill="#14F195" opacity="0.8"/>
+    <rect x="4" y="5" width="8" height="15" rx="2" fill="#14F195" opacity="0.8"/>
+    <circle cx="0" cy="-5" r="6" fill="#0A0E27"/>
+    <circle cx="0" cy="-5" r="3" fill="#14F195" opacity="0.9"/>
+    <path d="M-4,25 Q0,35 4,25" fill="#FF6B6B" opacity="0.7"/>
+  </g>
+
+  <!-- Main Title -->
+  <text x="600" y="140" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle" filter="url(#glow)">
+    SOLANA SNIPER BOT
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="200" font-family="Arial, sans-serif" font-size="28" fill="#14F195" text-anchor="middle" opacity="0.9">
+    Advanced Trading Automation Tool 2026
+  </text>
+
+  <!-- Feature Tags -->
+  <g transform="translate(300, 250)">
+    <!-- Tag 1 -->
+    <rect x="0" y="0" width="140" height="35" rx="17.5" fill="#14F195" opacity="0.2" stroke="#14F195" stroke-width="1.5"/>
+    <text x="70" y="23" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#14F195" text-anchor="middle">⚡ Lightning Fast</text>
+  </g>
+
+  <g transform="translate(460, 250)">
+    <!-- Tag 2 -->
+    <rect x="0" y="0" width="130" height="35" rx="17.5" fill="#9945FF" opacity="0.2" stroke="#9945FF" stroke-width="1.5"/>
+    <text x="65" y="23" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#9945FF" text-anchor="middle">🛡️ Anti-Rug</text>
+  </g>
+
+  <g transform="translate(610, 250)">
+    <!-- Tag 3 -->
+    <rect x="0" y="0" width="120" height="35" rx="17.5" fill="#14F195" opacity="0.2" stroke="#14F195" stroke-width="1.5"/>
+    <text x="60" y="23" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#14F195" text-anchor="middle">📊 Analytics</text>
+  </g>
+
+  <g transform="translate(750, 250)">
+    <!-- Tag 4 -->
+    <rect x="0" y="0" width="150" height="35" rx="17.5" fill="#9945FF" opacity="0.2" stroke="#9945FF" stroke-width="1.5"/>
+    <text x="75" y="23" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#9945FF" text-anchor="middle">💰 Free Forever</text>
+  </g>
+
+  <!-- Stats Bar -->
+  <g transform="translate(350, 320)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" fill="white" opacity="0.8">
+      <tspan font-weight="bold" fill="#14F195">73%</tspan> Win Rate
+    </text>
+    <text x="150" y="0" font-family="Arial, sans-serif" font-size="16" fill="white" opacity="0.8">
+      <tspan font-weight="bold" fill="#14F195">0.21s</tspan> Speed
+    </text>
+    <text x="280" y="0" font-family="Arial, sans-serif" font-size="16" fill="white" opacity="0.8">
+      <tspan font-weight="bold" fill="#14F195">15K+</tspan> Users
+    </text>
+    <text x="410" y="0" font-family="Arial, sans-serif" font-size="16" fill="white" opacity="0.8">
+      <tspan font-weight="bold" fill="#14F195">100%</tspan> Open Source
+    </text>
+  </g>
+
+  <!-- Bottom accent bar -->
+  <rect x="0" y="397" width="1200" height="3" fill="url(#accentGradient)" opacity="0.8"/>
+
+  <!-- Animated particles (static representation) -->
+  <circle cx="800" cy="150" r="2" fill="#14F195" opacity="0.4"/>
+  <circle cx="950" cy="180" r="1.5" fill="#9945FF" opacity="0.4"/>
+  <circle cx="400" cy="280" r="2" fill="#14F195" opacity="0.3"/>
+  <circle cx="850" cy="320" r="1.5" fill="#9945FF" opacity="0.3"/>
+</svg>
